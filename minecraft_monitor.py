@@ -1,21 +1,22 @@
 """
 Модуль для мониторинга сервера майнкрафт
 
-Версия: 1.1
-Автор: ArtShefer
-Дата последнего редактирования: 2022-01-20
+Version: 1.2
+Autor: Prozorovskiy Sergey (ArtShefer)
+Data update: 2022-01-20
 
-Пример использования:
+Example/Пример использования:
 
 from minecraft_monitor import *
+#from python_minecraft_tools.minecraft_monitor import *
 srv = MineMon('localhost', 25565)
-print('Подключение: ', srv.Check())
-print('Сервер:      ', srv.ip)
-print('Порт:        ', srv.port)
-print('Статус:      ', srv.status)
-print('Motd:        ', srv.motd)
-print('Играют:      ', srv.online)
-print('Слотов:      ', srv.max)
+print('Connect/Подключение: ', srv.Check())
+print('Host/Сервер:         ', srv.ip)
+print('Port/Порт:           ', srv.port)
+print('Status/Статус:       ', srv.status)
+print('Motd:                ', srv.motd)
+print('Online/Играют:       ', srv.online)
+print('Slots/Слотов:        ', srv.max)
 """
 import socket
 
