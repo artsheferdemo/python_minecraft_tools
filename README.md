@@ -21,13 +21,13 @@ print('Slots/Слотов:        ', srv.max)
 
 Пример использования:
 ```python
-    from minecraft_client import *
-    #from python_minecraft_tools.minecraft_client import *
-    srv = Client('localhost', 25565)
-    print('Connect/Подключение: ', srv.Check())
-    print('Json return:')
-    if srv.json == None:
-        print('No information/Нет информации')
-    else:
-        print(json.dumps(srv.json, indent=4))
+from minecraft_client import *
+#from python_minecraft_tools.minecraft_client import *
+srv = Client('localhost', 25565)
+print('Connect/Подключение: ', srv.Check())
+print('Json return:')
+if srv.json == None:
+    print('No information/Нет информации')
+else:
+    print(json.dumps(srv.json, indent=4))
 ```
