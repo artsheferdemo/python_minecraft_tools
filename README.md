@@ -21,7 +21,7 @@ print('Connect/Подключение: ', srv.Check())
 print('Host/Сервер:         ', srv.ip)
 print('Port/Порт:           ', srv.port)
 print('Status/Статус:       ', srv.status)
-print('Motd:                ', srv.motd)
+print('Motd/Описание:       ', srv.motd)
 print('Online/Играют:       ', srv.online)
 print('Slots/Слотов:        ', srv.max)
 ```

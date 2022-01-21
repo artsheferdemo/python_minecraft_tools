@@ -1,9 +1,9 @@
 """
 Модуль для мониторинга сервера майнкрафт
 
-Version: 1.2
+Version: 1.3
 Autor: Prozorovskiy Sergey (ArtShefer)
-Data update: 2022-01-20
+Data update: 2022-01-21
 
 Example/Пример использования:
 
@@ -14,7 +14,7 @@ print('Connect/Подключение: ', srv.Check())
 print('Host/Сервер:         ', srv.ip)
 print('Port/Порт:           ', srv.port)
 print('Status/Статус:       ', srv.status)
-print('Motd:                ', srv.motd)
+print('Motd/Описание:       ', srv.motd)
 print('Online/Играют:       ', srv.online)
 print('Slots/Слотов:        ', srv.max)
 """
