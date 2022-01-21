@@ -3,18 +3,16 @@
 
 ## minecraft_monitor.py
 
-Получение информации о сервере:
-
+**Получение информации о сервере:**
 - Motd - описание сервера
 - Кол-во игроков онлайн
 - Кол-во слотов
 
-Протестировано на:
-
+### Протестировано на:
 - ОС: Debian 11, Windows 7, Windows 10
 - Python: 3.9.2, 3.8.9
 
-Пример использования:
+### Пример использования:
 ```python
 from minecraft_monitor import *
 #from python_minecraft_tools.minecraft_monitor import *
@@ -29,12 +27,17 @@ print('Slots/Слотов:        ', srv.max)
 ```
 
 ## minecraft_client.py
-Примечание:
+Получение информации о сервере в формате Json.
+Информация которую может получить клиент игры.
 
+### Примечание:
 Скрипт не стабильный, не со всех серверов может получить информацию!
 Не хватает знаний пофиксить проблему. Я тупой.
 
-Пример использования:
+### Протестирован на:
+- Server Minecraft: 1.16.5
+
+### Пример использования:
 ```python
 from minecraft_client import *
 #from python_minecraft_tools.minecraft_client import *
